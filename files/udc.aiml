@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+    <category>
+        <pattern>Hi</pattern>
+        <template>Hi, there! I am the IT career bot. Do you like development or analysis more? </template>
+    </category>
+ 
+    <category>
+        <pattern>DEVELOPMENT</pattern>
+        <template>Okay, software development requires a variety of people for it to be successful. Do you like planning, coding, or designing?</template>
+    </category>
+  
+    <category>
+        <pattern>PLANNING</pattern>
+        <template>Great, based on your preferences you would make a great project manager or scrum master!</template>
+    </category>
+    
+    <category>
+        <pattern>CODING</pattern>
+        <template>Based on your preferences you would like the role of software engineer best!</template>
+    </category>
+    
+    <category>
+        <pattern>DESIGNING</pattern>
+        <template>Based on your preferences you would like the role of UX/UI designer best!</template>
+    </category>
+    
+     <category>
+        <pattern>ANALYSIS</pattern>
+        <template>Okay, data analysis has many different routes. Which of the following interests you most: Artificial Intelligence or Data Manipulation?</template>
+    </category>
+    
+     <category>
+        <pattern>Data Manipulation</pattern>
+        <template>You fit best into a Data Analyst role!</template>
+    </category>
+    
+     <category>
+        <pattern>Artificial Intelligence</pattern>
+        <template>Based on your preferences you would like the career of AI Engineer best!</template>
+    </category>
+    
+   <category>
+    <pattern>*</pattern>
+    <template>I have no answer for that. Please tell me whether you like development or analysis as a starting point.</template>
+  </category>
+  
+</aiml>
